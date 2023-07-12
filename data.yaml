@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['chicken-spanish-red', 'kasha-blue', 'lagman-brown', 'manty-green', 'meat-thai-blue', 'pelmeni-green', 'solyanka-yellow', 'stake-purple']
+
+roboflow:
+  workspace: shakaloriginaldataset2of2
+  project: pelmeni-green
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shakaloriginaldataset2of2/pelmeni-green/dataset/1
